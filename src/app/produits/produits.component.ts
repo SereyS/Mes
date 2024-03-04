@@ -25,6 +25,7 @@ export class ProduitsComponent{
   }
 
   supprimerProduit(p: Produit){
+    
     let conf = confirm("Etes-vous sûr ?");
     if (conf)
     this.produitService.supprimerProduit(p.idProduit!).subscribe(() => {

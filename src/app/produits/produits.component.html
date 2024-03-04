@@ -9,6 +9,7 @@
                 <td>{{produits.nomProduit}}</td>
                 <td>{{produits.prixProduit}}</td>
                 <td>{{produits.dateCreation | date:'dd/MM/yyyy'}}</td>
+                <td><a class="btn btn-danger" (click)="supprimerProduit(produits)">Supprimer</a></td>
                 </tr>
                 </tbody>
             </table>
