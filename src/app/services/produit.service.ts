@@ -11,7 +11,7 @@ const httpOptions = {
 })
 export class ProduitService {
   apiURL: string = 'http://localhost:8082/produits/api/produit';
-
+  produit! : Produit;
   constructor(private http : HttpClient) {
   }
   listeProduit(): Observable<Produit[]>{

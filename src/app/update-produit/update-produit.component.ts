@@ -7,6 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   selector: 'app-update-produit',
   templateUrl: './update-produit.component.html',
   styleUrl: './update-produit.component.css'
+  //styles: []
 })
 export class UpdateProduitComponent implements OnInit{
   currentProduit = new Produit()
