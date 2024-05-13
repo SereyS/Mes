@@ -36,6 +36,9 @@ export class ProduitService {
     {
     return this.http.put<Produit>(this.apiURL, prod, httpOptions);
     }
+
+    
+
 }
 
 

@@ -8,6 +8,8 @@ import { AddProduitComponent } from './add-produit/add-produit.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UpdateProduitComponent } from './update-produit/update-produit.component';
+import { LoginComponent } from './login/login.component';
+import { ForbiddenComponent } from './forbidden/forbidden.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { UpdateProduitComponent } from './update-produit/update-produit.componen
     AppComponent,
     ProduitsComponent,
     AddProduitComponent,
-    UpdateProduitComponent
+    UpdateProduitComponent,
+    LoginComponent,
+    ForbiddenComponent
   ],
   imports: [
     BrowserModule,
